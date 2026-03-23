@@ -106,7 +106,7 @@ int hash_checker(const char *hash_str) {
 
 int filetype_check(const char *filename) {
   
-    const char *suspicious_exts[] = {".vbs", ".bat", ".ps1", ".exe"};
+    const char *suspicious_exts[] = {".vbs", ".bat", ".ps1", ".exe",NULL};
 
     const char *ext = strrchr(filename, '.');  
     if (!ext) return 0; 
