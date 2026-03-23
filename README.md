@@ -5,5 +5,5 @@ Requirements
 3. **OpenSSL libraries**
 
 
-gcc main.c -o file -lcrypto
+gcc main.c -o file -lcrypto -lyara
 
